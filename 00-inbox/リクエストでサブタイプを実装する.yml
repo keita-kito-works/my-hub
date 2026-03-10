@@ -1,0 +1,49 @@
+# Shift + Alt + Pでプレビュー
+
+openapi: 3.0.0
+info:
+  title: 顧客検索API
+  version: 1.1.0
+paths:
+  /search:
+    post:
+      summary: 顧客検索
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SearchRequest'
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    SearchRequest:
+      type: object
+      discriminator:  # このdiscriminatorでどっちのルートに行くか判断される
+        propertyName: individualCorporationCategory
+      oneOf:
+        - $ref: '#/components/schemas/IndividualSearch'
+        - $ref: '#/components/schemas/CorporationSearch'
+      # ルートに example を書くことで、UI上の欠落を防ぎます
+      example:
+        individualCorporationCategory: "個人"
+        customerName: "山田太郎"
+    IndividualSearch:
+      type: object
+      properties:
+        individualCorporationCategory:
+          type: string
+          enum: [個人]
+        customerName:
+          type: string
+      required: [individualCorporationCategory, customerName]
+    CorporationSearch:
+      type: object
+      properties:
+        individualCorporationCategory:
+          type: string
+          enum: [法人]
+        corporationName:
+          type: string
+      required: [individualCorporationCategory, corporationName]

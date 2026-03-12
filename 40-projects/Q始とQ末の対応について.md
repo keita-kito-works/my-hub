@@ -29,12 +29,17 @@
 
 ---
 　　
-### Q末
+### 納品
 
-* 納品
-    * 手順の格納芭蕉
-    * 契約・受発注など事務処理全般　＞　98_納品手順
-    * https://fujitsu.sharepoint.com/:x:/r/teams/msteams_998ab4/Shared%20Documents/%E5%A5%91%E7%B4%84%E3%83%BB%E5%8F%97%E7%99%BA%E6%B3%A8%E3%81%AA%E3%81%A9%E4%BA%8B%E5%8B%99%E5%87%A6%E7%90%86%E5%85%A8%E8%88%AC/98_%E7%B4%8D%E5%93%81%E6%89%8B%E9%A0%86/%E6%AC%A1%E6%9C%9Fai%E5%BC%95%E7%B6%99%E3%81%8E.xlsx?d=wbd06a216da314737b928ebe0dd0293f2&csf=1&web=1&e=ciGezQ
+https://fujitsu.sharepoint.com/:x:/r/sites/jp-FujitsuDP-102214/Shared%20Documents/FUJITSU-CONFIDENTIAL/01_Sales%20%E9%A1%A7%E5%AE%A2%E5%A5%91%E7%B4%84%E2%80%8B%E5%87%A6%E7%90%86%E2%80%8B/98_%E7%B4%8D%E5%93%81%E6%89%8B%E9%A0%86/%E6%AC%A1%E6%9C%9Fai%E5%BC%95%E7%B6%99%E3%81%8E.xlsx?d=waf05048e5b44451fb72048069e4b3913&csf=1&web=1&e=AW3dkg
+
+**納品指示**
+
+* 納品期日が指定、もしくは納品日を選択するよう指示がある（月初）
+    * 選択制の場合、担当者に連絡する
+* 過去を遡ると納品依頼・TSレビュー・格納までで10日ほどのLTでかかっていそうなため
+
+
 * 納品場所
     * 販売店システム部　納品物管理　＞　11：富士通
     * フォルダが準備されていても、枝番が合っているかCheckする（最後に直す）
